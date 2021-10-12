@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoMusicas</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoMusicas.Controllers.V1.MusicasController.Obter(System.Guid)">
+            <summary>
+            Buscar um Musica pelo seu Id
+            </summary>
+            <param name="idMusica">Id do Musica buscado</param>
+            <response code="200">Retorna o Musica filtrado</response>
+            <response code="204">Caso não haja Musica com este id</response> 
+        </member>
+    </members>
+</doc>
